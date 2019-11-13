@@ -11,3 +11,4 @@ var surname = prompt('Inserisci il tuo cognome:');
 var bestColor = prompt('Inserisci il tuo colore preferito:');
 console.log(name + surname + bestColor);
 document.getElementById('show_password').innerHTML = name + surname + bestColor + '19'
+document.getElementById('container').setAttribute('class','visible')
